@@ -19,9 +19,9 @@ public class Main {
         System.out.println("Bubble sort time: " + arrayInfo.getTimeToSort() + "ms" + " Iterations: " + arrayInfo.getIterationsToSort());
         System.out.println("Quick sort time: " + arrayInfo2.getTimeToSort() + "ms" + " Iterations: " + arrayInfo2.getIterationsToSort());
         System.out.println("Selection sort time: " + arrayInfo3.getTimeToSort() + "ms" + " Iterations: " + arrayInfo3.getIterationsToSort());
-        arrayInfo.saveArrayToFile("C:\\bubble.txt");
-        arrayInfo2.saveArrayToFile("C:\\quick.txt");
-        arrayInfo3.saveArrayToFile("C:\\selection.txt");
+        arrayInfo.saveArrayToFile("C:\\bubbleJava.txt");
+        arrayInfo2.saveArrayToFile("C:\\quickJava.txt");
+        arrayInfo3.saveArrayToFile("C:\\selectionJava.txt");
 
     }
 }

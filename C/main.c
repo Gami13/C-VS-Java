@@ -30,19 +30,19 @@ int main(void)
 	printf("Insertion Sort:\n");
 	printf("Time: %lld ms\n", insertion.time);
 	printf("Iterations: %lld\n", insertion.iterations);
-	writeSortInfoToFile(insertion, "D:\\insertion.txt");
+	writeSortInfoToFile(insertion, "C:\\insertionC.txt");
 
 	struct SortInfo bubble = bubbleSort(numbers2, lineCount);
 	printf("Bubble Sort:\n");
 	printf("Time: %lld ms\n", bubble.time);
 	printf("Iterations: %lld\n", bubble.iterations);
-	writeSortInfoToFile(bubble, "D:\\bubble.txt");
+	writeSortInfoToFile(bubble, "C:\\bubbleC.txt");
 
 	struct SortInfo quick = quickSort(numbers3, lineCount);
 	printf("Quick Sort:\n");
 	printf("Time: %lld ms\n", quick.time);
 	printf("Swaps: %lld\n", quick.iterations);
-	writeSortInfoToFile(quick, "D:\\quick.txt");
+	writeSortInfoToFile(quick, "C:\\quickC.txt");
 
 	return 0;
 }
